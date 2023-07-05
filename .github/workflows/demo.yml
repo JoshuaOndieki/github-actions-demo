@@ -39,8 +39,8 @@ jobs:
             - name: Build with Parcel
               run: npm run build
             
-            - name: Serve App
-              run: npm run serve
+            # - name: Serve App
+            #   run: npm run serve
 
             - name: Test with Cypress
               run: npm test
