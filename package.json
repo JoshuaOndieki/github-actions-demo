@@ -7,12 +7,13 @@
     "serve": "parcel serve -p 8181",
     "dev": "parcel watch",
     "build": "parcel build",
-    "test": "cypress run"
+    "test": "bash test.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^8.2.0",
     "cypress": "^12.16.0",
     "parcel": "^2.9.3"
   }
