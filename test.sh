@@ -9,11 +9,4 @@ exit_code=$?
 
 kill $server_pid
 
-# if [ $exit_code -eq 0 ]; then
-#     echo "Passed -> $exit_code"
-# else
-#     echo $exit_code
-#     echo "The exit code is: $exit_code-> Failed"
-# fi
-
 exit $exit_code
