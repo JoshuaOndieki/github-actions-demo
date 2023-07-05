@@ -3,7 +3,7 @@
 npx parcel serve -p 8181 &
 server_pid=$!
 
-cypress run --exit-code-from cypress --env passed=true
+cypress run
 
 exit_code=$?
 
