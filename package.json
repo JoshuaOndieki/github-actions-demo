@@ -1,0 +1,19 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "A demo of Workflows with GitHub Actions",
+  "source": "./src/index.html",
+  "scripts": {
+    "serve": "parcel serve -p 8181",
+    "dev": "parcel watch",
+    "build": "parcel build",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.16.0",
+    "parcel": "^2.9.3"
+  }
+}
